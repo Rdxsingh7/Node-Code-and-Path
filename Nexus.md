@@ -9,9 +9,9 @@
   sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev
   ```
 Quick run
-
+  ```bash
 curl https://cli.nexus.xyz/ | sh
-
+  ```
 #### Installation Steps
 
 1. **Clone the Nexus Repository:**
