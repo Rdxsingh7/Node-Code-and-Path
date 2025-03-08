@@ -1,0 +1,74 @@
+# Install
+[+]```[/+][-] ```sh[/-]
+curl -L -o pop[+] "https://dl.pipecdn.app/v0.2.8/pop"[/+][-] "https://dl.pipecdn.app/v0.2.6/pop"[/-]
+```
+#
+```
+chmod +x pop
+```
+# Make Directory
+```
+mkdir download_cache
+```
+# Sign-up With Command
+```
+./pop --signup-by-referral-route d93ec7a125f095ab
+```
+# Start The Node
+```
+sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>[+] --enable-80-443[/+]
+```
+🪐 **Don't Forget to Change the `Ram` , `Disk` & `Pubkey` with your actual..**
+🪐**& Also Don't forget to Remove < >**
+[+]🟥 **---Important--** If There is Port issue, Then u have to expose (forward) the port 8003 into your local ip! Watch YT videos or Help the ChatGpt to open the port~[/+]
+[-]# Save the file (Very Important) 🏮[/-]
+[+]# Save the file (Very Important) 🏮[/+][-] ```[/-]
+[-]nano ~/node_info.json[/-]
+```
+[+]nano ~/node_info.json[/+][-] **Ctrl+x to Exit**[/-]
+[+]```[/+]
+[+]**Ctrl+x to Exit**[/+][-] # Node Status[/-]
+[+]# Node Status[/+][-] ```[/-]
+[-]./pop --status[/-]
+```
+[+]./pop --status[/+]
+[+]```[/+][-] # Check points[/-]
+[+]# Check points[/+][-] ```[/-]
+[-]./pop --points[/-]
+```
+[+]./pop --points[/+]
+[+]```[/+][-] # Generate referral[/-]
+[+]# Generate referral[/+][-] ```[/-]
+[-]./pop --gen-referral-route[/-]
+```
+[+]./pop --gen-referral-route[/+]
+[+]```[/+]
+[-]To Start Next Day, Run THE `Start The Node` COMMAND[/-]
+[+]To Start Next Day, Run THE `Start The Node` COMMAND[/+][-] ___________[/-]
+[+]___________[/+][-] **Docs-** https://docs.pipe.network/devnet-2[/-]
+[+]**Docs-** https://docs.pipe.network/devnet-2[/+][-] **Check Points & Status From Dashboard** -: https://dashboard.pipenetwork.com/node-lookup[/-]
+[+]**Check Points & Status From Dashboard** -: https://dashboard.pipenetwork.com/node-lookup[/+][-] **Join TG for more Updates:** [telegram.me/cryptogg](url)[/-]
+[+]**Join TG for more Updates:** [telegram.me/cryptogg](url)[/+][-] ![Image](https://github.com/user-attachments/assets/0b897848-9e0f-4e60-9b36-8b46b426d45f)[/-]
+[+]![Image](https://github.com/user-attachments/assets/0b897848-9e0f-4e60-9b36-8b46b426d45f)[/+]
+[-]# 👾**Guide To Upgrade v0.2.6**[/-]
+#[+] 👾**Guide To Upgrade v0.2.8**[/+][-] Download The New Pop Binary[/-]
+[+]# Download The New Pop Binary[/+][-] ```[/-]
+[-]curl -L -o pop "https://dl.pipecdn.app/v0.2.6/pop"[/-]
+```
+[+]curl -L -o pop "https://dl.pipecdn.app/v0.2.8/pop"[/+][-] #[/-]
+[+]```[/+][-] ```[/-]
+[+]# [/+][-]chmod +x pop[/-]
+[+]```[/+][-] ```[/-]
+[+]chmod +x pop[/+]
+[+]```[/+][-] # Start The Node[/-]
+[+]# Start The Node[/+][-] ```[/-]
+[-]sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY>[/-]
+```
+[+]sudo ./pop --ram 8 --max-disk 500 --cache-dir /data --pubKey <KEY> --enable-80-443 [/+][-]🪐 **Don't Forget to Change the `Ram` , `Disk` & `Pubkey` with your actual..**[/-]
+[+]```[/+]
+[+]🪐 **Don't Forget to Change the `Ram` , `Disk` & `Pubkey` with your actual..**[/+][-] 🪐**& Also Don't forget to Remove < >**[/-]
+[+]🪐**& Also Don't forget to Remove < >** [/+][-]# Successful Running Logs Should Looks Like This👇👇[/-]
+[+]🟥 **---Important--** If There is Port issue, Then u have to expose (forward) the port 8003 into your local ip! Watch YT videos or Help the ChatGpt to open the port~ [/+][-]![Image](https://github.com/user-attachments/assets/83d0f8bf-b15d-47c8-99d0-e1fd1e2c2b9b)[/-]
+[+]# Successful Running Logs Should Looks Like This👇👇[/+]
+[+]![Image](https://github.com/user-attachments/assets/7d54ee85-0f6d-4706-9317-d25be06d015d)[/+]
+[+]Thank u❤️
